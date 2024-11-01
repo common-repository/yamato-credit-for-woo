@@ -1,0 +1,773 @@
+# Copyright (C) 2024 Welcart Inc., yamatofinancial
+# This file is distributed under the GNU General Public License v2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuroneko Web Collect for Woo 1.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kuroneko-pay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-27T22:47:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: kupaywc\n"
+
+#. Plugin Name of the plugin
+#: kuroneko-pay.php
+msgid "Kuroneko Web Collect for Woo"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: kuroneko-pay.php
+msgid "https://www.collne.com/yamato-credit-for-woo/"
+msgstr ""
+
+#. Description of the plugin
+#: kuroneko-pay.php
+msgid "When using KuronekoWebCollect, the payment of credit card will be available."
+msgstr "クロネコwebコレクトサービスを利用すると、クレジットカードでのお支払いが可能となります。"
+
+#. Author of the plugin
+#: kuroneko-pay.php
+msgid "Welcart Inc., yamatofinancial"
+msgstr ""
+
+#. Author URI of the plugin
+#: kuroneko-pay.php
+msgid "https://www.welcart.com/"
+msgstr ""
+
+#: includes/class-kupaywc-admin-order.php:32
+msgid "When using %s, Kuroneko Web Collect for Woo not use."
+msgstr "%s をご利用の場合、Kuroneko Web Collect for Wooはご利用できません。"
+
+#: includes/class-kupaywc-admin-order.php:32
+msgid "WooCommerce Subscriptions"
+msgstr "WooCommerce Subscriptions"
+
+#: includes/class-kupaywc-admin-order.php:46
+msgid "Payment Status"
+msgstr "決済ステータス"
+
+#: includes/class-kupaywc-admin-order.php:46
+msgid "(KuronekoWebCollect)"
+msgstr "(クロネコwebコレクト)"
+
+#: includes/class-kupaywc-admin-order.php:120
+#: includes/class-kupaywc-payment-gateway.php:25
+#: includes/class-kupaywc.php:250
+msgid "KuronekoWebCollect"
+msgstr "クロネコwebコレクト"
+
+#: includes/class-kupaywc-admin-order.php:122
+#: includes/class-kupaywc-payment-gateway-paypay.php:22
+msgid "KuronekoWebCollect (PayPay)"
+msgstr "クロネコwebコレクト（PayPay）"
+
+#: includes/class-kupaywc-admin-order.php:128
+#: includes/class-kupaywc.php:286
+#: includes/class-kupaywc.php:292
+msgid "Kuroneko Invoice Number"
+msgstr "クロネコ送り状番号"
+
+#: includes/class-kupaywc-admin-order.php:164
+msgid "Info"
+msgstr "決済情報"
+
+#: includes/class-kupaywc-admin-order.php:196
+msgid "送り状番号を追加"
+msgstr "送り状番号を追加"
+
+#: includes/class-kupaywc-admin-order.php:196
+msgid "発送完了に変更する前に指定してください。"
+msgstr "発送完了に変更する前に指定してください。"
+
+#: includes/class-kupaywc-admin-order.php:320
+#: includes/class-kupaywc-payment-gateway-paypay.php:292
+#: includes/class-kupaywc-payment-gateway.php:525
+#: includes/class-kupaywc-payment-gateway.php:649
+#: includes/class-kupaywc-payment-gateway.php:790
+#: includes/class-kupaywc-payment-response-handler-paypay.php:69
+#: includes/class-kupaywc-payment-response-handler-paypay.php:191
+#: includes/class-kupaywc-payment-response-handler.php:125
+#: includes/class-kupaywc-payment-response-handler.php:234
+#: includes/class-kupaywc.php:64
+#: includes/class-kupaywc.php:93
+#: includes/kupaywc-functions.php:250
+msgid "Payment processing failed. Please retry."
+msgstr "支払い処理に失敗しました。再度お試しください。"
+
+#: includes/class-kupaywc-admin-order.php:372
+msgid "Transaction date"
+msgstr "決済日時"
+
+#: includes/class-kupaywc-admin-order.php:373
+msgid "Transaction code"
+msgstr "決済コード"
+
+#: includes/class-kupaywc-admin-order.php:375
+#: includes/class-kupaywc-payment-gateway.php:208
+#: includes/class-kupaywc-payment-gateway.php:293
+#: build/index.js:450
+#: src/blocks/credit-card/elements.js:120
+#: build/index.js:372
+msgid "The number of installments"
+msgstr "支払回数"
+
+#: includes/class-kupaywc-admin-order.php:377
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/class-kupaywc-admin-order.php:395
+msgid "Processing date"
+msgstr "処理日時"
+
+#: includes/class-kupaywc-admin-order.php:395
+msgid "Sequence number"
+msgstr "処理連番"
+
+#: includes/class-kupaywc-admin-order.php:395
+msgid "Result"
+msgstr "処理結果"
+
+#: includes/class-kupaywc-admin-order.php:523
+#: includes/class-kupaywc-admin-order.php:641
+#: includes/class-kupaywc-admin-order.php:697
+#: includes/class-kupaywc-admin-order.php:836
+#: includes/class-kupaywc-admin-order.php:852
+msgid "Spending amount (%s)"
+msgstr "利用金額 (%s)"
+
+#: includes/class-kupaywc-admin-order.php:529
+#: includes/class-kupaywc-admin-order.php:577
+#: includes/class-kupaywc-admin-order.php:646
+#: includes/class-kupaywc-admin-order.php:754
+#: includes/class-kupaywc-admin-order.php:841
+#: includes/class-kupaywc-admin-order.php:857
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-kupaywc-admin-order.php:530
+#: includes/class-kupaywc-admin-order.php:636
+#: includes/class-kupaywc-admin-order.php:647
+#: includes/class-kupaywc-admin-order.php:813
+#: includes/class-kupaywc-admin-order.php:842
+#: includes/class-kupaywc-admin-order.php:847
+#: includes/class-kupaywc-admin-order.php:858
+msgid "Amount change"
+msgstr "利用額変更"
+
+#: includes/class-kupaywc-admin-order.php:534
+#: includes/class-kupaywc-admin-order.php:585
+#: includes/class-kupaywc-admin-order.php:651
+#: includes/class-kupaywc-admin-order.php:762
+#: includes/class-kupaywc-admin-order.php:862
+msgid "Error"
+msgstr "エラー"
+
+#: includes/class-kupaywc-admin-order.php:577
+#: includes/class-kupaywc-admin-order.php:636
+#: includes/class-kupaywc-admin-order.php:754
+#: includes/class-kupaywc-admin-order.php:813
+#: includes/class-kupaywc-admin-order.php:847
+#: includes/class-kupaywc-payment-response-handler-paypay.php:243
+msgid "%s is completed."
+msgstr "%sが完了しました。"
+
+#: includes/class-kupaywc-admin-order.php:695
+msgid "Repayment"
+msgstr "再決済"
+
+#: includes/class-kupaywc-admin-order.php:702
+#: includes/class-kupaywc-payment-gateway-paypay.php:168
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:175
+#: includes/class-kupaywc-payment-gateway.php:201
+msgid "Credit"
+msgstr "与信"
+
+#: includes/class-kupaywc-admin-order.php:703
+#: includes/class-kupaywc-payment-gateway-paypay.php:169
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:176
+#: includes/class-kupaywc-payment-gateway.php:202
+msgid "Credit sales recorded"
+msgstr "与信売上確定"
+
+#: includes/class-kupaywc-admin-order.php:707
+#: includes/class-kupaywc-admin-order.php:715
+msgid "Payment error"
+msgstr "決済エラー"
+
+#: includes/class-kupaywc-admin-order.php:709
+#: includes/class-kupaywc-admin-order.php:717
+msgid "Not registered of card member information"
+msgstr "カード会員情報未登録"
+
+#: includes/class-kupaywc-admin-order.php:847
+msgid "Waiting for increase approval."
+msgstr "増額承認待ちです。"
+
+#: includes/class-kupaywc-admin-order.php:1272
+msgid "Are you sure you want to execute a processing sales recording?"
+msgstr "売上確定処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-admin-order.php:1279
+msgid "Are you sure you want to a processing of cancellation?"
+msgstr "取消処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-admin-order.php:1295
+#: includes/class-kupaywc-admin-order.php:1311
+#: includes/class-kupaywc-admin-order.php:1323
+#: includes/class-kupaywc-admin-order.php:1335
+msgid "The spending amount format is incorrect. Please enter with numeric value."
+msgstr "利用金額の形式が不正です。数値で入力してください。"
+
+#: includes/class-kupaywc-admin-order.php:1298
+msgid "Are you sure you want to change the spending amount?"
+msgstr "利用金額の変更処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-admin-order.php:1314
+msgid "Are you sure you want to execute a processing of credit?"
+msgstr "与信処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-admin-order.php:1326
+msgid "Are you sure you want to execute a processing of credit sales recording?"
+msgstr "与信売上確定処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-admin-order.php:1338
+msgid "Are you sure you want to a processing of re-authorization?"
+msgstr "再オーソリ処理を実行します。よろしいですか？"
+
+#: includes/class-kupaywc-exception.php:40
+#: includes/kupaywc-functions.php:253
+msgid "Your credit card information is incorrect."
+msgstr "クレジットカード情報に誤りがあります。"
+
+#: includes/class-kupaywc-myaccount.php:49
+#: includes/class-kupaywc-payment-support.php:115
+#: includes/kupaywc-form-cardmember.php:35
+#: build/index.js:573
+#: src/blocks/credit-card/elements.js:196
+#: build/index.js:448
+msgid "Delete the saved card member"
+msgstr "カード会員情報を削除"
+
+#: includes/class-kupaywc-myaccount.php:86
+msgid "Update credit card"
+msgstr "クレジットカード更新"
+
+#: includes/class-kupaywc-myaccount.php:88
+msgid "Save credit card"
+msgstr "クレジットカード登録"
+
+#: includes/class-kupaywc-myaccount.php:120
+#: includes/class-kupaywc-myaccount.php:124
+#: includes/class-kupaywc-myaccount.php:129
+msgid "%s is a required field."
+msgstr "%sは必須項目です。"
+
+#: includes/class-kupaywc-myaccount.php:120
+#: includes/class-kupaywc-payment-gateway.php:271
+#: build/index.js:332
+#: src/blocks/credit-card/elements.js:30
+#: build/index.js:282
+msgid "Card number"
+msgstr "カード番号"
+
+#: includes/class-kupaywc-myaccount.php:124
+#: includes/class-kupaywc-payment-gateway.php:279
+#: build/index.js:356
+#: src/blocks/credit-card/elements.js:42
+#: build/index.js:294
+msgid "Expiry (MM/YY)"
+msgstr "有効期限(月/年)"
+
+#: includes/class-kupaywc-myaccount.php:129
+#: includes/class-kupaywc-payment-gateway.php:285
+#: build/index.js:383
+#: src/blocks/credit-card/elements.js:57
+#: build/index.js:309
+msgid "Card code"
+msgstr "セキュアコード"
+
+#: includes/class-kupaywc-myaccount.php:172
+msgid "Update processing failed. Please retry."
+msgstr "更新処理に失敗しました。再度お試しください。"
+
+#: includes/class-kupaywc-myaccount.php:187
+msgid "Card member updated successfully."
+msgstr "カード会員情報を更新しました。"
+
+#: includes/class-kupaywc-myaccount.php:199
+msgid "Failed updating card number."
+msgstr "カード会員情報の変更に失敗しました。"
+
+#: includes/class-kupaywc-myaccount.php:214
+#: includes/class-kupaywc-myaccount.php:320
+#: includes/class-kupaywc-myaccount.php:325
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:124
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:129
+msgid "Card member does not found."
+msgstr "カード会員情報が見つかりません。"
+
+#: includes/class-kupaywc-myaccount.php:222
+msgid "Card member saved successfully."
+msgstr "カード会員情報を登録しました。"
+
+#: includes/class-kupaywc-myaccount.php:234
+msgid "Failed saving card member."
+msgstr "カード会員情報の登録に失敗しました。"
+
+#: includes/class-kupaywc-myaccount.php:305
+#: includes/class-kupaywc-payment-support.php:159
+msgid "Failed deleting card member."
+msgstr "カード会員情報の削除に失敗しました。"
+
+#: includes/class-kupaywc-myaccount.php:330
+msgid "Card member deleted successfully."
+msgstr "カード会員情報を削除しました。"
+
+#: includes/class-kupaywc-myaccount.php:365
+msgid "The card number is not a valid credit card number."
+msgstr "カード番号が有効なクレジットカード番号ではありません。"
+
+#: includes/class-kupaywc-myaccount.php:366
+msgid "The card's expiration month is invalid."
+msgstr "カードの有効期限の月が不正です。"
+
+#: includes/class-kupaywc-myaccount.php:367
+msgid "The card's expiration year is invalid."
+msgstr "カードの有効期限の年が不正です。"
+
+#: includes/class-kupaywc-myaccount.php:368
+msgid "The card's security code is invalid."
+msgstr "カードのセキュアコードが不正です。"
+
+#: includes/class-kupaywc-myaccount.php:369
+msgid "Are you sure you want to delete card member?"
+msgstr "カード会員情報を削除してもよろしいですか？"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:23
+msgid "PayPay gateway of Kuroneko Web Collect. Only available for billing to Japan."
+msgstr "クロネコwebコレクトのクレジットカード決済。日本国内の請求にのみ利用できます。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:79
+#: includes/class-kupaywc-payment-gateway.php:86
+msgid "Gateway disabled"
+msgstr "ゲートウェイが無効"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:79
+#: includes/class-kupaywc-payment-gateway.php:86
+msgid "KuronekoWebCollect does not support your store currency."
+msgstr "クロネコwebコレクトでは、あなたのショップの通貨をサポートしていません。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:124
+#: includes/class-kupaywc-payment-gateway.php:130
+msgid "Enable/Disable"
+msgstr "有効化/無効化"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:126
+msgid "Enable KuronekoWebCollect(PayPay)"
+msgstr "クロネコwebコレクト（PayPay）を有効化"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:130
+#: includes/class-kupaywc-payment-gateway.php:136
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:132
+#: includes/class-kupaywc-payment-gateway.php:138
+msgid "This controls the title which the user sees during checkout."
+msgstr "決済時にユーザーに表示される決済名を設定します。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:133
+msgid "PayPay payment"
+msgstr "PayPay支払い"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:137
+#: includes/class-kupaywc-payment-gateway.php:143
+msgid "Description"
+msgstr "説明"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:140
+#: includes/class-kupaywc-payment-gateway.php:146
+msgid "This controls the description which the user sees during checkout."
+msgstr "決済時にユーザーに表示される説明を設定します。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:141
+msgid "Pay with PayPay."
+msgstr "PayPayで支払いをする。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:144
+#: includes/class-kupaywc-payment-gateway.php:150
+msgid "Test mode"
+msgstr "テストモード"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:146
+#: includes/class-kupaywc-payment-gateway.php:152
+msgid "Enable Test mode"
+msgstr "テストモードを有効化"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:148
+#: includes/class-kupaywc-payment-gateway.php:154
+msgid "Connect to test environment and run in test mode."
+msgstr "テスト環境に接続し、テストモードで稼働します。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:151
+#: includes/class-kupaywc-payment-gateway.php:157
+msgid "Trader Code"
+msgstr "加盟店コード"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:153
+#: includes/class-kupaywc-payment-gateway.php:159
+msgid "9 digits on contract sheet with Kuroneko Web Collect."
+msgstr "クロネコwebコレクト登録完了書に記載している数字9桁の「加盟店コード」を設定してください。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:157
+#: includes/class-kupaywc-payment-gateway.php:163
+msgid "Access Key"
+msgstr "アクセスキー"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:159
+#: includes/class-kupaywc-payment-gateway.php:165
+msgid "Last numerics of access URL on contract sheet with Kuroneko Web Collect."
+msgstr "クロネコwebコレクト登録完了書に記載しているアクセスURL末尾の数字を入力します。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:165
+#: includes/class-kupaywc-payment-gateway.php:198
+msgid "Operation mode"
+msgstr "処理区分"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:172
+#: includes/class-kupaywc-payment-gateway.php:205
+msgid "In case of 'Credit' setting, it need to change to 'Sales recorded' manually in later. In case of 'Credit sales recorded' setting, sales will be recorded at the time of purchase."
+msgstr "与信」に設定する場合は、後から手動で「売上確定」する必要があります。「与信売上確定」に設定する場合は、定期購入支払い時に売上が確定されます。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:175
+#: includes/class-kupaywc-payment-gateway.php:218
+msgid "Save the log"
+msgstr "ログを保存"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:176
+#: includes/class-kupaywc-payment-gateway.php:219
+msgid "Save the log of payment results"
+msgstr "支払い結果通知ログを保存"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:178
+#: includes/class-kupaywc-payment-gateway.php:221
+msgid "Save the log of payment results to WooCommerce System Status log."
+msgstr "WooCommerce システムステータスログに支払い結果通知ログを保存します。"
+
+#: includes/class-kupaywc-payment-gateway-paypay.php:198
+#: includes/class-kupaywc-payment-gateway.php:242
+msgid "TESTMODE RUNNING."
+msgstr "※テストモードで稼働中"
+
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:107
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:112
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:123
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:128
+msgid "Subscription payment processing failed."
+msgstr "定期購入支払い処理に失敗しました。"
+
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:167
+msgid "Please be sure to enable when using the subscription."
+msgstr "定期購入を利用する場合は、必ず有効化してください。"
+
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:172
+msgid "Subscriptions operation mode"
+msgstr "定期購入処理区分"
+
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:179
+msgid "Setting up the operation mode of the subscription."
+msgstr "定期購入支払い時の処理区分を設定します。"
+
+#: includes/class-kupaywc-payment-gateway-subscriptions.php:179
+msgid "In case of 'Credit' setting, it need to change to 'Sales recorded' manually in later. In case of 'Credit sales recorded' setting, sales will be recorded at the time of subscription purchase."
+msgstr ""
+
+#: includes/class-kupaywc-payment-gateway.php:26
+msgid "Credit card gateway of Kuroneko Web Collect. Only available for billing to Japan."
+msgstr "「与信」に設定する場合は、後から手動で「売上確定」する必要があります。「与信売上確定」に設定する場合は、定期購入支払い時に売上が確定されます。"
+
+#: includes/class-kupaywc-payment-gateway.php:132
+msgid "Enable KuronekoWebCollect"
+msgstr "クロネコwebコレクトを有効化"
+
+#: includes/class-kupaywc-payment-gateway.php:139
+#: build/index.js:807
+#: build/index.js:822
+#: src/blocks/credit-card/index.js:62
+#: src/blocks/credit-card/index.js:73
+#: build/index.js:659
+#: build/index.js:670
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#: includes/class-kupaywc-payment-gateway.php:147
+msgid "Pay with your credit card."
+msgstr "クレジットカードで支払う"
+
+#: includes/class-kupaywc-payment-gateway.php:171
+msgid "3D Secure"
+msgstr "3Dセキュア"
+
+#: includes/class-kupaywc-payment-gateway.php:173
+msgid "Use 3D Secure authentication"
+msgstr "3Dセキュア認証を利用する"
+
+#: includes/class-kupaywc-payment-gateway.php:175
+msgid "3D Secure Authentication for Settlement."
+msgstr "決済時の3Dセキュア認証"
+
+#: includes/class-kupaywc-payment-gateway.php:178
+msgid "Security code (authentication assist)"
+msgstr "セキュアコード"
+
+#: includes/class-kupaywc-payment-gateway.php:180
+msgid "Use authentication of Security code (authentication assist)"
+msgstr "セキュアコードの認証を利用する"
+
+#: includes/class-kupaywc-payment-gateway.php:184
+msgid "Card Members(registered in KuronekoWebCollect)"
+msgstr "カード会員（カードお預かり機能）"
+
+#: includes/class-kupaywc-payment-gateway.php:186
+msgid "Enable payment via saved card"
+msgstr "登録済みカードでの支払いを有効化"
+
+#: includes/class-kupaywc-payment-gateway.php:188
+msgid "When this is enabled, members can pay with saved card. Card number will be registered in KuronekoWebCollect, not in your store.Not registered in KuronekoWebCollect when User not member or logout."
+msgstr "有効にすると、ユーザーは購入の際に登録済みのカードで支払うことができます。カード情報はあなたのショップではなく、クロネコwebコレクトに登録されます。(ユーザーがログインしていない場合はカード情報は登録されません。)"
+
+#: includes/class-kupaywc-payment-gateway.php:193
+msgid "Always registering as a card member"
+msgstr "常にカード会員に登録"
+
+#: includes/class-kupaywc-payment-gateway.php:195
+msgid "If this is enabled, the members can not choose the option which they won't register the credit card.Not registered in KuronekoWebCollect when User not member or logout."
+msgstr "有効にすると、会員はカード番号を登録しないことを選択できません。(ユーザーがログインしていない場合はカード情報は登録されません。)"
+
+#: includes/class-kupaywc-payment-gateway.php:211
+msgid "Lump-sum payment only"
+msgstr "一括払いのみ"
+
+#: includes/class-kupaywc-payment-gateway.php:212
+msgid "Enable installment payments"
+msgstr "分割払いを有効にする"
+
+#: includes/class-kupaywc-payment-gateway.php:215
+msgid "Allow customer to choose the number of installment payments."
+msgstr "購入時にユーザーが支払回数を選択できるようにします。"
+
+#: includes/class-kupaywc-payment-gateway.php:275
+#: build/index.js:346
+#: src/blocks/credit-card/elements.js:36
+#: build/index.js:288
+msgid "Card holder"
+msgstr "カード名義人"
+
+#: includes/class-kupaywc-payment-gateway.php:280
+#: build/index.js:366
+#: src/blocks/credit-card/elements.js:44
+#: build/index.js:296
+msgid "MM"
+msgstr "MM"
+
+#: includes/class-kupaywc-payment-gateway.php:280
+#: build/index.js:375
+#: src/blocks/credit-card/elements.js:46
+#: build/index.js:298
+msgid "YY"
+msgstr "YY"
+
+#: includes/class-kupaywc-payment-gateway.php:321
+#: build/index.js:554
+#: src/blocks/credit-card/elements.js:181
+#: build/index.js:433
+msgid "Using the saved credit card."
+msgstr "登録済みのカードで支払う"
+
+#: includes/class-kupaywc-payment-gateway.php:325
+#: includes/kupaywc-form-cardmember.php:23
+#: build/index.js:561
+#: src/blocks/credit-card/elements.js:185
+#: build/index.js:437
+msgid "Last 4 digits of the saved card number: "
+msgstr "登録済みのカード番号の下4桁："
+
+#: includes/class-kupaywc-payment-gateway.php:362
+msgid "Save the card information to your account data. You won't need to input the card number from next purchases."
+msgstr "お支払い情報を登録します。次回のご利用からカード番号の入力の必要がなくなります。"
+
+#: includes/class-kupaywc-payment-gateway.php:393
+#: includes/class-kupaywc-payment-gateway.php:397
+#: includes/class-kupaywc-payment-gateway.php:412
+#: includes/class-kupaywc-payment-gateway.php:427
+#: includes/kupaywc-functions.php:112
+#: build/index.js:461
+#: build/index.js:470
+#: build/index.js:499
+#: build/index.js:526
+#: src/blocks/credit-card/elements.js:125
+#: src/blocks/credit-card/elements.js:128
+#: src/blocks/credit-card/elements.js:142
+#: src/blocks/credit-card/elements.js:154
+#: build/index.js:377
+#: build/index.js:380
+#: build/index.js:394
+#: build/index.js:406
+msgid "Lump-sum payment"
+msgstr "一括払い"
+
+#: includes/class-kupaywc-payment-gateway.php:398
+#: includes/class-kupaywc-payment-gateway.php:399
+#: includes/class-kupaywc-payment-gateway.php:400
+#: includes/class-kupaywc-payment-gateway.php:401
+#: includes/class-kupaywc-payment-gateway.php:402
+#: includes/class-kupaywc-payment-gateway.php:403
+#: includes/class-kupaywc-payment-gateway.php:404
+#: includes/class-kupaywc-payment-gateway.php:405
+#: includes/class-kupaywc-payment-gateway.php:406
+#: includes/class-kupaywc-payment-gateway.php:407
+#: includes/class-kupaywc-payment-gateway.php:413
+#: includes/class-kupaywc-payment-gateway.php:414
+#: includes/class-kupaywc-payment-gateway.php:415
+#: includes/class-kupaywc-payment-gateway.php:416
+#: includes/class-kupaywc-payment-gateway.php:417
+#: includes/class-kupaywc-payment-gateway.php:418
+#: includes/class-kupaywc-payment-gateway.php:419
+#: includes/class-kupaywc-payment-gateway.php:420
+#: includes/class-kupaywc-payment-gateway.php:421
+#: includes/kupaywc-functions.php:125
+#: build/index.js:472
+#: build/index.js:474
+#: build/index.js:476
+#: build/index.js:478
+#: build/index.js:480
+#: build/index.js:482
+#: build/index.js:484
+#: build/index.js:486
+#: build/index.js:488
+#: build/index.js:490
+#: build/index.js:501
+#: build/index.js:503
+#: build/index.js:505
+#: build/index.js:507
+#: build/index.js:509
+#: build/index.js:511
+#: build/index.js:513
+#: build/index.js:515
+#: build/index.js:517
+#: src/blocks/credit-card/elements.js:129
+#: src/blocks/credit-card/elements.js:130
+#: src/blocks/credit-card/elements.js:131
+#: src/blocks/credit-card/elements.js:132
+#: src/blocks/credit-card/elements.js:133
+#: src/blocks/credit-card/elements.js:134
+#: src/blocks/credit-card/elements.js:135
+#: src/blocks/credit-card/elements.js:136
+#: src/blocks/credit-card/elements.js:137
+#: src/blocks/credit-card/elements.js:138
+#: src/blocks/credit-card/elements.js:143
+#: src/blocks/credit-card/elements.js:144
+#: src/blocks/credit-card/elements.js:145
+#: src/blocks/credit-card/elements.js:146
+#: src/blocks/credit-card/elements.js:147
+#: src/blocks/credit-card/elements.js:148
+#: src/blocks/credit-card/elements.js:149
+#: src/blocks/credit-card/elements.js:150
+#: src/blocks/credit-card/elements.js:151
+#: build/index.js:381
+#: build/index.js:382
+#: build/index.js:383
+#: build/index.js:384
+#: build/index.js:385
+#: build/index.js:386
+#: build/index.js:387
+#: build/index.js:388
+#: build/index.js:389
+#: build/index.js:390
+#: build/index.js:395
+#: build/index.js:396
+#: build/index.js:397
+#: build/index.js:398
+#: build/index.js:399
+#: build/index.js:400
+#: build/index.js:401
+#: build/index.js:402
+#: build/index.js:403
+msgid "-installments"
+msgstr "回払い"
+
+#: includes/class-kupaywc-payment-gateway.php:741
+#: includes/class-kupaywc-payment-response-handler-paypay.php:113
+#: includes/class-kupaywc-payment-response-handler.php:169
+msgid "Payment is completed."
+msgstr "お支払いが完了しました。"
+
+#: includes/class-kupaywc-payment-gateway.php:743
+#: includes/class-kupaywc-payment-response-handler-paypay.php:115
+#: includes/class-kupaywc-payment-response-handler.php:171
+msgid "Credit is completed."
+msgstr "与信が完了しました。"
+
+#: includes/class-kupaywc-payment-support.php:104
+msgid "KuronekoWebCollect Card Member"
+msgstr "クロネコwebコレクトカード会員"
+
+#: includes/class-kupaywc-payment-support.php:108
+msgid "Last 4 digits of the saved card number"
+msgstr "登録済みカード番号下4桁"
+
+#: includes/class-kupaywc-payment-support.php:121
+msgid "Delete a card member information registered in KuronekoWebCollect."
+msgstr "クロネコwebコレクトに登録したカード会員情報を削除します。"
+
+#: includes/class-kupaywc-payment-support.php:179
+msgid "First name (kana)"
+msgstr "名（カナ）"
+
+#: includes/class-kupaywc-payment-support.php:184
+msgid "Last name (kana)"
+msgstr "姓（カナ）"
+
+#: includes/class-kupaywc-payment-support.php:292
+#: includes/class-kupaywc-payment-support.php:306
+#: includes/class-kupaywc-payment-support.php:330
+#: includes/class-kupaywc-payment-support.php:354
+msgid "First name kana"
+msgstr "メイ"
+
+#: includes/class-kupaywc-payment-support.php:296
+#: includes/class-kupaywc-payment-support.php:310
+#: includes/class-kupaywc-payment-support.php:334
+#: includes/class-kupaywc-payment-support.php:358
+msgid "Last name kana"
+msgstr "セイ"
+
+#: includes/class-kupaywc.php:238
+msgid "Settings"
+msgstr "設定"
+
+#: includes/kupaywc-functions.php:55
+msgid "M j, Y @ G:i:s"
+msgstr "Y年n月j日 @ G:i:s"
+
+#: includes/kupaywc-functions.php:60
+msgid "M j, Y @ G:i"
+msgstr "Y年n月j日 @ G:i"
+
+#: includes/kupaywc-functions.php:65
+msgid "M j, Y"
+msgstr "Y年n月j日"
+
+#: includes/kupaywc-functions.php:128
+msgid "Pay for it out of a bonus"
+msgstr "ボーナス一括払い"
+
+#: includes/kupaywc-functions.php:131
+msgid "Revolving payment"
+msgstr "リボ払い"

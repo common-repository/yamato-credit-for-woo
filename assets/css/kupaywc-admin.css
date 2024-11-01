@@ -1,0 +1,153 @@
+.kupaywc-settlement-admin,
+.order-kupaywc-status {
+    line-height: 2.5em;
+    padding: 0 1em;
+    max-width: 100%;
+    background-color: #093;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: inherit !important;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+}
+
+.kupaywc-settlement-admin {
+    display: block;
+}
+
+.order-kupaywc-status {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: -.25em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.card-capture,
+.card-gathering,
+.cvs-paid {
+    background-color: #0085ba;
+}
+
+.cvs-chg {
+    background-color: #dd823b;
+}
+
+.card-delete,
+.cvs-del {
+    background-color: #60646c;
+}
+
+.card-error,
+.cvs-error,
+.cvs-unpaid,
+.cvs-expired {
+    background-color: #c00;
+}
+
+.kupaywc-settlement-admin-button .button {
+    margin-right: 1em;
+}
+
+#kupaywc-settlement-actions table {
+    width: 100%;
+    color: #888;
+}
+
+#kupaywc-settlement-actions th {
+    padding-right: .5em;
+    width: 40%;
+    text-align: right;
+}
+
+#kupaywc-settlement-actions td {
+    width: 60%;
+    text-align: left;
+}
+
+table.kupaywc-settlement-admin-table,
+table.kupaywc-settlement-admin-table th,
+table.kupaywc-settlement-admin-table td,
+table.kupaywc-settlement-history,
+table.kupaywc-settlement-history th,
+table.kupaywc-settlement-history td {
+    border-collapse: collapse;
+    border: 1px #e5e5e5 solid;
+}
+
+table.kupaywc-settlement-history > tbody > :nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.kupaywc-settlement-admin-table,
+table.kupaywc-settlement-history {
+    margin: 1em 0;
+    width: 100%;
+}
+
+table.kupaywc-settlement-admin-table th,
+table.kupaywc-settlement-admin-table td {
+    padding: .5em 1em;
+}
+
+table.kupaywc-settlement-history th,
+table.kupaywc-settlement-history td {
+    padding: 1em .5em;
+}
+
+table.kupaywc-settlement-admin-table th,
+table.kupaywc-settlement-history th {
+    background-color: #f9f9f9;
+}
+
+table.kupaywc-settlement-admin-table th {
+    width: 30%;
+    text-align: left;
+}
+
+table.kupaywc-settlement-history .num,
+table.kupaywc-settlement-history .operateid,
+table.kupaywc-settlement-history .responsecd {
+    text-align: center;
+}
+
+table.kupaywc-settlement-history .num {
+    width: 2em;
+}
+
+table.kupaywc-settlement-history .responsecd {
+    width: 6em;
+    color: #093;
+}
+
+.kupaywc-settlement-admin-error {
+    margin: .7em 0 1em;
+    padding: .5em 1em;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffe6ea;
+}
+
+.kupaywc-settlement-admin-expired {
+    margin: .7em 0 1em;
+    padding: .5em 1em;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+}
+
+.kupaywc-settlement-history-body .error,
+table.kupaywc-settlement-history .responsecd.error {
+    color: #f00;
+}
